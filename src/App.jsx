@@ -4,7 +4,8 @@ import { BookOpen, Clock, Zap, CheckCircle, Menu, X, Star, Camera, Image as Imag
 // --- CONFIGURATION ---
 // IMPORTANT: Jab tu isse apni website par daale, toh apni asli API Key yahan quotes mein daal dena.
 // Example: const apiKey = "AIzaSy...";
-const apiKey = "AIzaSyCpzPAvvOyVuD3twEnoquniyMRGnYTCPuk"; 
+const apiKey = 
+  import.meta.env.VITE_GEMINI_API_KEY
 
 const App = () => {
   const [messages, setMessages] = useState([
